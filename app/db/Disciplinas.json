@@ -1,0 +1,158 @@
+{
+  "Disciplinas": [
+    {
+      "id": "1",
+      "Descricao": "Compiladores",
+      "DataInicio": "01/03/2021",
+      "Valor": "700",
+      "Optativa": "Não"
+    },
+    {
+      "id": "2",
+      "Descricao": "Desenvolvimento de framework 3",
+      "DataInicio": "01/03/2021",
+      "Valor": "800",
+      "Optativa": "Não"
+    },
+    {
+      "id": "3",
+      "Descricao": "Exercício Profissional",
+      "DataInicio": "01/03/2021",
+      "Valor": "500",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "4",
+      "Descricao": "Redes de computadores",
+      "DataInicio": "2021-03-02",
+      "Valor": "800",
+      "Optativa": "Não"
+    },
+    {
+      "id": "5",
+      "Descricao": "Engenharia de ximigao",
+      "DataInicio": "2021-03-02",
+      "Valor": "600",
+      "Optativa": "Não"
+    },
+    {
+      "id": "6",
+      "Descricao": "Matemática discreta",
+      "DataInicio": "2021-03-12",
+      "Valor": "400",
+      "Optativa": "Não"
+    },
+    {
+      "id": "7",
+      "Descricao": "Data science",
+      "DataInicio": "2021-03-09",
+      "Valor": "900",
+      "Optativa": "Não"
+    },
+    {
+      "id": "8",
+      "Descricao": "teste",
+      "DataInicio": "2021-03-09",
+      "Valor": "900",
+      "Optativa": "Não"
+    },
+    {
+      "id": "9",
+      "Descricao": "teste 2",
+      "DataInicio": "2021-03-09",
+      "Valor": "900",
+      "Optativa": "Não"
+    },
+    {
+      "id": "10",
+      "Descricao": "teste 3",
+      "DataInicio": "2021-03-09",
+      "Valor": "900",
+      "Optativa": "Não"
+    },
+    {
+      "id": "11",
+      "Descricao": "teste 4",
+      "DataInicio": "2021-03-05",
+      "Valor": "500",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "12",
+      "Descricao": "teste 5",
+      "DataInicio": "2021-03-17",
+      "Valor": "800",
+      "Optativa": "Não"
+    },
+    {
+      "id": "13",
+      "Descricao": "teste 6",
+      "DataInicio": "2021-03-09",
+      "Valor": "800",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "14",
+      "Descricao": "teste 7",
+      "DataInicio": "2021-03-08",
+      "Valor": "400",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "15",
+      "Descricao": "teste 8",
+      "DataInicio": "2021-03-06",
+      "Valor": "900",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "16",
+      "Descricao": "teste 9",
+      "DataInicio": "2021-03-11",
+      "Valor": "300",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "17",
+      "Descricao": "teste 10",
+      "DataInicio": "2021-03-10",
+      "Valor": "350",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "18",
+      "Descricao": "teste 11",
+      "DataInicio": "2021-03-03",
+      "Valor": "450",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "19",
+      "Descricao": "teste 12",
+      "DataInicio": "2021-03-19",
+      "Valor": "555",
+      "Optativa": "Não"
+    },
+    {
+      "id": "20",
+      "Descricao": "teste 13",
+      "DataInicio": "2021-03-11",
+      "Valor": "444",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "21",
+      "Descricao": "kkk",
+      "DataInicio": "2021-03-10",
+      "Valor": "888",
+      "Optativa": "Sim"
+    },
+    {
+      "id": "22",
+      "Descricao": "baubaubau",
+      "DataInicio": "2021-03-10",
+      "Valor": "456",
+      "Optativa": "Não"
+    }
+  ]
+}

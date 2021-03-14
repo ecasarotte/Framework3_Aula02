@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+	<script src="./lib/jquery.min.js"></script>
+	<script src="./lib/system.js"></script>
+	<script>
+		System.defaultJSExtensions = true;
+		System.import('js/index.js').catch(err => console.log(err));
+	</script>
+	<title>Lista 2</title>
+</head>
+
+<body>
+	<div class="d-none alert alert-danger alert-dismissible fade show" role="alert">
+		<center>Insira todos os campos para adicionar disciplina.</center>
+	</div>
+	<h1 class="my-4 d-flex justify-content-center text-secondary">Disciplinas da universidade</h1>
+
+	<div class="container mb-4">
+		<form>
+			<div class="row my-4">
+				<div class="col">
+					<label for="Codigo">Código da Disciplina</label>
+				</div>
+				<div class="col">
+					<input id="Codigo" type="number" class="form-control"></input>
+					<span class="d-none text-danger">Obrigatório*</span>
+				</div>
+			</div>
+			<div class="row my-4">
+				<div class="col">
+					<label for="Descricao">Descrição</label>
+				</div>
+				<div class="col">
+					<input id="Descricao" class="form-control"></input>
+				</div>
+			</div>
+			<div class="row my-4">
+				<div class="col">
+					<label for="Data">Data de início</label>
+				</div>
+				<div class="col">
+					<input id="Data" type="date" class="form-control"></input>
+				</div>
+			</div>
+			<div class="row my-4">
+				<div class="col">
+					<label for="Valor">Valor</label>
+				</div>
+				<div class="col">
+					<input id="Valor" type="number" class="form-control"></input>
+				</div>
+			</div>
+			<div class="row my-4">
+				<div class="col">
+					<label for="Optativa">Optativa</label>
+				</div>
+				<div class="col form-group">
+					<select name="opcoes" class="form-select" id="Optativa">
+						<option selected disabled value="">SELECIONE</option>
+						<option value="Sim">Sim</option>
+						<option value="Não">Não</option>
+					</select>
+				</div>
+			</div>
+	</div>
+	<div class="my-4 d-flex justify-content-center">
+		<button type="submit" class="btn btn-outline-success mx-3" id="btnIncluir">Incluir</button>
+		<button type="submit" class="btn btn-outline-info mx-3" id="btnConsultar">Consultar</button>
+		<button type="submit" class="btn btn-outline-info mx-3" id="btnLer">Ler</button>
+		<button type="submit" class="btn btn-outline-warning mx-3" id="btnAlterar">Alterar</button>
+		<button type="submit" class="btn btn-outline-danger mx-3" id="btnExcluir">Excluir</button>
+	</div>
+
+	</form>
+
+	<table class="table table-dark my-4">
+		<tr>
+			<th scope="col">Código</th>
+			<th scope="col">Descrição</th>
+			<th scope="col">Dt. inicio</th>
+			<th scope="col">Valor (R$)</th>
+			<th scope="col">Optativa</th>
+		</tr>
+
+		<tbody id="Resultados">
+
+		</tbody>
+	</table>
+
+</body>
+
+</html>
